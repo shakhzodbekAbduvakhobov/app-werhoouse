@@ -1,6 +1,7 @@
 package uz.pdp.appwerhouse.entity;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Column;
+import jakarta.persistence.Entity;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
@@ -12,8 +13,8 @@ import uz.pdp.appwerhouse.entity.template.AbstractEntity;
 @AllArgsConstructor
 @NoArgsConstructor
 @Entity
-public class Category extends AbstractEntity {
+public class Supplier extends AbstractEntity {
 
-    @ManyToOne
-    private Category parentCategory;
+    @Column(nullable = false, unique = true)
+    private String phoneNumber;
 }

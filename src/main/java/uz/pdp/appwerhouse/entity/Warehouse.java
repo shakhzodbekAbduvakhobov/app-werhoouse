@@ -8,5 +8,5 @@ import uz.pdp.appwerhouse.entity.template.AbstractEntity;
 @EqualsAndHashCode(callSuper = true)
 @Data
 @Entity
-public class Werhouse extends AbstractEntity {
+public class Warehouse extends AbstractEntity {
 }
