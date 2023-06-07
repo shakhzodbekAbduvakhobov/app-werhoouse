@@ -6,7 +6,7 @@ import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-import uz.pdp.appwerhouse.entity.template.AbstractEntity;
+import uz.pdp.appwerhousedemo.entity.template.AbstractEntity;
 
 @EqualsAndHashCode(callSuper = true)
 @Data

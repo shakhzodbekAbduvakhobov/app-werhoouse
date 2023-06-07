@@ -2,9 +2,9 @@ package uz.pdp.appwerhouse.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import uz.pdp.appwerhouse.entity.Measurement;
-import uz.pdp.appwerhouse.payload.Result;
-import uz.pdp.appwerhouse.repository.MeasurementRepository;
+import uz.pdp.appwerhousedemo.entity.Measurement;
+import uz.pdp.appwerhousedemo.payload.Result;
+import uz.pdp.appwerhousedemo.repository.MeasurementRepository;
 
 @Service
 public class MeasurementService {

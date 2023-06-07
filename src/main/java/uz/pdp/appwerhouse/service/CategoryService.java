@@ -2,10 +2,10 @@ package uz.pdp.appwerhouse.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import uz.pdp.appwerhouse.entity.Category;
-import uz.pdp.appwerhouse.payload.CategoryDto;
-import uz.pdp.appwerhouse.payload.Result;
-import uz.pdp.appwerhouse.repository.CategoryRepository;
+import uz.pdp.appwerhousedemo.entity.Category;
+import uz.pdp.appwerhousedemo.payload.CategoryDto;
+import uz.pdp.appwerhousedemo.payload.Result;
+import uz.pdp.appwerhousedemo.repository.CategoryRepository;
 
 import java.util.Optional;
 

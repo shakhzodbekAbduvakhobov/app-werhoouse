@@ -1,7 +1,7 @@
 package uz.pdp.appwerhouse.repository;
 
 import org.springframework.data.jpa.repository.JpaRepository;
-import uz.pdp.appwerhouse.entity.Measurement;
+import uz.pdp.appwerhousedemo.entity.Measurement;
 
 public interface MeasurementRepository extends JpaRepository<Measurement, Integer> {
 

@@ -1,11 +1,12 @@
 package uz.pdp.appwerhouse.entity;
 
-import jakarta.persistence.*;
+import jakarta.persistence.Entity;
+import jakarta.persistence.ManyToOne;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.NoArgsConstructor;
-import uz.pdp.appwerhouse.entity.template.AbstractEntity;
+import uz.pdp.appwerhousedemo.entity.template.AbstractEntity;
 
 @EqualsAndHashCode(callSuper = true)
 @Data

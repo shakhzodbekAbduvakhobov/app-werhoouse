@@ -5,11 +5,11 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.web.multipart.MultipartFile;
 import org.springframework.web.multipart.MultipartHttpServletRequest;
-import uz.pdp.appwerhouse.entity.Attachment;
-import uz.pdp.appwerhouse.entity.AttachmentContent;
-import uz.pdp.appwerhouse.payload.Result;
-import uz.pdp.appwerhouse.repository.AttachmentContentRepository;
-import uz.pdp.appwerhouse.repository.AttachmentRepository;
+import uz.pdp.appwerhousedemo.entity.Attachment;
+import uz.pdp.appwerhousedemo.entity.AttachmentContent;
+import uz.pdp.appwerhousedemo.payload.Result;
+import uz.pdp.appwerhousedemo.repository.AttachmentContentRepository;
+import uz.pdp.appwerhousedemo.repository.AttachmentRepository;
 
 import java.util.Iterator;
 

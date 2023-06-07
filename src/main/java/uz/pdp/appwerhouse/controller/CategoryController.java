@@ -5,10 +5,9 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import uz.pdp.appwerhouse.entity.Category;
-import uz.pdp.appwerhouse.payload.CategoryDto;
-import uz.pdp.appwerhouse.payload.Result;
-import uz.pdp.appwerhouse.service.CategoryService;
+import uz.pdp.appwerhousedemo.payload.CategoryDto;
+import uz.pdp.appwerhousedemo.payload.Result;
+import uz.pdp.appwerhousedemo.service.CategoryService;
 
 @RestController
 @RequestMapping("/controller")
