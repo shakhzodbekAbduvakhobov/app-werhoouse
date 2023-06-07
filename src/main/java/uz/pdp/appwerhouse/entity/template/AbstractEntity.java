@@ -15,5 +15,5 @@ public abstract class AbstractEntity {
     private Integer id;
 
     private String name;
-    private boolean active;
+    private boolean active = true;
 }
